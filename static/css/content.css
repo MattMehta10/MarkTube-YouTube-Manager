@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url('fonts/Gilroy-ExtraBold.otf') format('opentype')
+}
+
+
+
+.myBoxWatchedParent {
+    position: relative;
+}
+
+.myBoxButtonContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.myBoxButton {
+    position: relative;
+    z-index: 100;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    background: rgba(0, 178, 26, 0.58);
+    font-family: 'Gilroy Extrabold';
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove box shadow */
+}
+
+.myBoxButton:hover {
+    background-color: #237b2c;
+}
+
+.myBoxButton.ytFix {
+    top: auto;
+    bottom: 10px;
+    left: 10px;
+}
+
+.myBoxButton.ytFix.ytMini {
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.myBoxButton.dpFix {
+    margin: 10px;
+}
+
+.myBoxButtonWatched {
+    background: rgba(0, 178, 26, 0.58) !important;
+}
+
+.myBoxButton.ytFixPage {
+    position: relative !important;
+    margin-left: 5px;
+    border-radius: 15px;
+    background: rgba(0, 178, 26, 0.58);
+    padding: 2px 20px;
+}
+
+.ytFixPage.myBoxButtonWatched {
+    background: rgba(0, 178, 26, 1) !important;
+}
+
+#actions > .myBoxButton.ytFixPage {
+    padding: 5px 10px;
+}
+
+.myBoxWatched {
+    opacity: 0.1;
+}
+
+.myWatchedButton {
+    background-color: #07671fb9;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 5px;
+    gap: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Gilroy Extrabold';
+    font-weight: 100;
+    position: relative;
+    padding-left: 10px; /* Space for the icon */
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Position of the icon */
+    margin-top: 8px;
+    cursor: pointer;
+    box-shadow: none; /* Remove box shadow */
+}
+
+.myWatchedButton:hover {
+    background-color: #215026;
+}
+
+/* Style for watched video thumbnails */
+.watchedThumbnail {
+    border: 8px solid green; /* Green border for watched videos */
+    border-radius: 5px;  /* Optional: rounds the corners of the border */
+    padding: 2px; /* Adjust padding to ensure the border isn't too tight */
+}
+
+.myBoxWatchedParent {
+    border: 2px solid transparent; /* Default no border */
+    transition: border 0.3s ease;
+}
+
+.ytFixPage {
+    border: none !important;
+    margin-right: 15px;
+}
+
+/* Space adjustments for elements */
+#above-the-fold #top-row #owner,
+div[id="dismissible"],
+ytd-playlist-video-renderer > #content,
+ytd-rich-item-renderer > #content {
+    margin-right: 10px;
+}
+
+.myBoxButtonIMP {
+    background: rgba(255, 0, 0, 0.58) !important;
+}
+
+.myBoxButtonIMP:hover {
+    background-color: #e12a2a;
+}
+
+.impThumbnail {
+    border: 10px solid red; /* Red border for important videos */
+    border-radius: 0px;  /* Optional: rounds the corners of the border */
+    padding: 3px; /* Adjust padding to ensure the border isn't too tight */
+}

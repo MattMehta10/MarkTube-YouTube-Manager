@@ -1,0 +1,225 @@
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('Gilroy-ExtraBold.otf') format('opentype')
+}
+
+
+body {
+	margin: 0;
+	padding: 15px 15px 15px;
+}
+
+.strip{
+	position: absolute;
+	mix-blend-mode:soft-light;
+	rotate: 70deg;
+	background-color: rgba(255, 255, 255, 0.774);
+	/* position: absolute; */
+	height:100vw;
+}
+
+.strip:nth-child(1){
+	top: -95px;
+	left:70px;
+	width: 22px;
+}
+.strip:nth-child(2){
+	top: -130px;
+	left:80px;
+	width: 8px;
+}
+.strip:nth-child(3){
+	bottom: -95px;
+	right:4px;
+	width: 20px;
+}
+
+.strip:nth-child(4){
+	top: -138.5px;
+	left:85px;
+	width: 3px;
+}
+
+.strip:nth-child(5){
+	top: -111px;
+	left:80px;
+	width: 3px;
+} */
+
+button {
+	z-index: 1000;
+	white-space: nowrap;
+	padding: 5px;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 15px;
+	resize: none;
+	width: 100%;
+	padding: 5px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'gilroy';
+	/* white-space: nowrap; */
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+#heading{
+	z-index: 9999;
+	/* mix-blend-mode:hard-light; */
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: black;
+	/* background-color: white; */
+	gap:12px;
+	border-radius: 5px;
+	align-items: center;
+}
+
+.title p{
+	font-weight: 300;
+	font-size: 12px;
+
+}
+
+.title img{
+	mix-blend-mode: difference;
+	height: 40px;
+}
+
+#watchedMoviesCountDesc {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	margin-top: 10px;
+	white-space: nowrap;
+}
+
+#watchedMoviesCountDesc a {
+	color: white !important;
+}
+
+#watchedMoviesCountDesc a:hover {
+	text-decoration: none;
+}
+
+#taImportList {
+	border-width: 2px;
+}
+
+#importDesc {
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	padding: 10px 0 0 0;
+}
+
+#btnImport {
+	margin-top: 5px;
+	/*width: auto;*/
+}
+
+button {
+	width: 100%;
+	align-items: center;
+	appearance: none;
+	background-color: #FCFCFD;
+	border-radius: 4px;
+	border-width: 0;
+	box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+	box-sizing: border-box;
+	color: #36395A;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: "JetBrains Mono", monospace;
+	height: 40px;
+	justify-content: center;
+	line-height: 1;
+	list-style: none;
+	overflow: hidden;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+	transition: box-shadow .15s, transform .15s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	will-change: box-shadow, transform;
+	font-size: 15px;
+}
+
+button:focus {
+	box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+button:hover {
+	box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+	transform: translateY(-2px);
+}
+
+button:active {
+	box-shadow: #D6D6E7 0 3px 7px inset;
+	transform: translateY(2px);
+}
+
+#version {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-size: 13px;
+	text-align: end;
+	margin-top: 2px;
+}
+
+#version img{
+	height: 30px;
+}
+
+#toWatchDiv {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	max-height: 190px;
+	overflow-y: auto;
+	transition: all 0.3s ease-in-out;
+}
+
+#toWatchList li {
+	margin: 0.5em 0;
+	padding: 0.5em;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+	transition: background 0.3s ease;
+}
+
+#toWatchList li:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#toWatchList a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+}
+
+#toWatchList a:hover {
+	text-decoration: underline;
+	color: black;
+}

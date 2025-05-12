@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MarkTube-Personal Youtube Manager</title>
+  <link rel="stylesheet" href="static/css/popup.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      padding: 1em;
+      font-family: sans-serif;
+      background-image: linear-gradient(to bottom, #229c55, rgb(16, 107, 57));
+      color: #fff;
+    }
+    .title {
+      font-size: 1.55em;
+      font-family: 'gilroy';
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    button {
+      display: block;
+      width: 100%;
+      margin: 0.5em 0;
+      padding: 0.5em;
+      border: none;
+      border-radius: 4px;
+      background: rgba(255,255,255,0.2);
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background: rgba(255,255,255,0.3);
+    }
+    #restoreDiv {
+      margin-top: 1em;
+    }
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 0.5em;
+      padding: 0.5em;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-family: monospace;
+    }
+    #importDesc {
+      margin-top: 0.5em;
+      font-size: 0.9em;
+      color: #ffdddd;
+    }
+    #version {
+      margin-top: 1em;
+      font-size: 0.8em;
+      text-align: center;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="strip"></div>
+  <div class="strip"></div>
+  <div class="strip"></div>
+  <div class="strip"></div>
+  <div class="strip"></div>
+  <div class="title"><div id="heading" ><img src="icon/logo128.png" alt="">MarkTube </div><p>Your Personal Youtube Manager</p></div>
+  <div id="watchedMoviesCountDesc"></div>
+
+  <button id="btnClearWatchedList">Clear Watched List</button>
+  <button id="btnBackupWatchedList">Backup Watched List (.txt)</button>
+  <button id="btnRestoreWatchedList">Restore Watched List</button>
+
+  <div id="restoreDiv" style="display: none;">
+    <textarea id="taImportList" rows="8" placeholder="Paste your backed-up watched list…&#10;&#10;ABC123&#10;DEF456&#10;GHI789&#10;&#10;then click Import"></textarea>
+    <button id="btnImport">Import</button>
+  </div>
+
+  <div id="importDesc" style="display: none;"></div>
+  <div>
+    <button id="btnWantWatchNext">Want To Watch Next</button>
+    <div id="toWatchDiv" style="display: none; margin-top: 10px; padding: 10px; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+      <ul id="toWatchList" style="list-style: none; padding: 0; margin: 0;"></ul>
+    </div>
+  </div>
+  <div id="version"><p>v1.2.1</p><img src="static/image.png" alt=""></div>
+
+  <!-- Vanilla-JS logic -->
+  <script src="js/popup.js" defer></script>
+</body>
+</html>
