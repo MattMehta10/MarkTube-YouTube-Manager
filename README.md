@@ -30,4 +30,5 @@ You may **view and use**, but not **modify, redistribute**, or **use commerciall
 This project is not open for contributions at the moment. But feel free to fork and use it personally.
 Thank You
 Yash Mehta
-# MarkTube-YouTube-Manager
+## 🛡️ Code Obfuscation Notice:
+The JavaScript files in this project are obfuscated to prevent casual tampering and protect the logic of the extension. If you’re interested in the source or contributing, feel free to contact me directly.
