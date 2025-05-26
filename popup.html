@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>MarkTube-Personal Youtube Manager</title>
@@ -10,15 +11,17 @@
       margin: 0;
       padding: 1em;
       font-family: sans-serif;
-      background-image: linear-gradient(to bottom, #229c55, rgb(16, 107, 57));
-      color: #fff;
+      width: 230px;
+
     }
+
     .title {
       font-size: 1.55em;
       font-family: 'gilroy';
       font-weight: bold;
       margin-bottom: 0.5em;
     }
+
     button {
       display: block;
       width: 100%;
@@ -26,16 +29,15 @@
       padding: 0.5em;
       border: none;
       border-radius: 4px;
-      background: rgba(255,255,255,0.2);
-      color: #fff;
       cursor: pointer;
     }
-    button:hover {
-      background: rgba(255,255,255,0.3);
-    }
+
+
+
     #restoreDiv {
       margin-top: 1em;
     }
+
     textarea {
       width: 100%;
       box-sizing: border-box;
@@ -45,11 +47,12 @@
       border: 1px solid #ccc;
       font-family: monospace;
     }
+
     #importDesc {
       margin-top: 0.5em;
       font-size: 0.9em;
-      color: #ffdddd;
     }
+
     #version {
       margin-top: 1em;
       font-size: 0.8em;
@@ -58,34 +61,99 @@
     }
   </style>
 </head>
-<body>
+
+<body class="dark"> 
   <div class="strip"></div>
   <div class="strip"></div>
   <div class="strip"></div>
   <div class="strip"></div>
   <div class="strip"></div>
-  <div class="title"><div id="heading" ><img src="icon/logo128.png" alt="">MarkTube </div><p>Your Personal Youtube Manager</p></div>
+  <div id="setpanel">
+    <form id="form" action="">
+      <p>settings</p>
+      <h3>Pre-Defined Themes</h3>
+      <div id="defnot">
+        <p id="notification" class="notification"></p>
+        <p id="editbtn" style="cursor: pointer;">Edit</p>
+      </div>
+      <div id="defaultsec">
+        <h4 class="inbuilt" >Default<input id='default' type="radio" name="theme" value="dark"></h4>
+        <h4 class="inbuilt">Light<input id='light' type="radio" name="theme" value="light"></h4>
+        <h4 class="inbuilt">Dark<input id="dark" type="radio" name="theme" value="dark"></h4>
+      </div>
+      <button id="ApplyDT" class="SaveandApply">Apply</button>
+      <div id="userdefinedsec">
+        <h3 id="info1">User Defined Themes
+          <a href="https://colorkit.co/palettes/3-colors/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z">
+              </path>
+            </svg></a><span id="infocnt1" class="infocnt">
+            <p>Use reference Link for theme: <br> 1. Click on info. <br> 2. Choose your desired theme from the
+              website. <br> 3. Copy the color codes in the Input field below accordingly. <br> 4. Apply/Save as
+              required.
+            </p>
+          </span>
+        </h3>
+        <h4>Theme Name :<input class="userinput" type="text" name="color" id="thmname" placeholder="Theme Name"></h4>
+        <h4>Accent :<input class="userinput" type="text" name="color" id="thmaccent" placeholder="Enter strip color">
+        </h4>
+        <h4>Background :<input class="userinput" type="text" name="color" id="thmbgc"
+            placeholder="Enter background color">
+        </h4>
+        <h4 id="info2">Theme Feel :<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z">
+            </path>
+          </svg><span id="infocnt2" class="infocnt">
+            <p>How is the overall feel of your defined theme?</p>
+          </span></h4>
+        <h4>Light<input class="themefeel" type="radio" name="feel" value="light"></h4>
+        <h4>Dark<input class="themefeel" type="radio" name="feel" value="dark">
+        </h4>
+
+      </div>
+      <div id="UDSbtn"><button id="ApplyUDT" class="SaveandApply">Apply</button>
+        <button id="Save" class="SaveandApply">Save</button>
+      </div>
+
+    </form>
+  </div>
+  <div id="set" title="user settings"></div>
+  <div class="title">
+    <div id="heading"><img src="icon/logo128.png" alt="">MarkTube</div>
+    <p>Your Personal Youtube Manager</p>
+  </div>
   <div id="watchedMoviesCountDesc"></div>
 
   <button id="btnClearWatchedList">Clear Watched List</button>
   <button id="btnBackupWatchedList">Backup Watched List (.txt)</button>
+  <div id="dropdownMenu" class="dropdown-content">
+</div>
   <button id="btnRestoreWatchedList">Restore Watched List</button>
 
   <div id="restoreDiv" style="display: none;">
-    <textarea id="taImportList" rows="8" placeholder="Paste your backed-up watched list…&#10;&#10;ABC123&#10;DEF456&#10;GHI789&#10;&#10;then click Import"></textarea>
+    <textarea id="taImportList" rows="8"
+      placeholder="Paste your backed-up list…&#10;&#10;ABC123&#10;DEF456&#10;GHI789&#10;&#10;then click Import"></textarea>
     <button id="btnImport">Import</button>
   </div>
 
   <div id="importDesc" style="display: none;"></div>
   <div>
     <button id="btnWantWatchNext">Want To Watch Next</button>
-    <div id="toWatchDiv" style="display: none; margin-top: 10px; padding: 10px; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+    <div id="toWatchDiv"
+      style="display: none; margin-top: 10px; padding: 10px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
       <ul id="toWatchList" style="list-style: none; padding: 0; margin: 0;"></ul>
     </div>
   </div>
-  <div id="version"><p>v1.2.1</p><img src="static/image.png" alt=""></div>
+  <div id="version">
+    <p>v1.3.0</p><a href="https://github.com/MattMehta10/" target="_blank"><img src="static/image.png"
+        title="Yash Mehta" alt="">
+  </div></a>
 
   <!-- Vanilla-JS logic -->
-  <script src="js/popup.js" defer></script>
+  <script src="js/popup.js"></script>
+   <!-- tobechnage -->
 </body>
 </html>

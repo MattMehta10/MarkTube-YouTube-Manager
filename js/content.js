@@ -1,1 +1,235 @@
-function _0xf969(_0x3a81d8,_0x4b6001){const _0x6120fc=_0x6120();return _0xf969=function(_0xf969e3,_0x4cc14d){_0xf969e3=_0xf969e3-0x184;let _0x1853b3=_0x6120fc[_0xf969e3];return _0x1853b3;},_0xf969(_0x3a81d8,_0x4b6001);}const _0x22292f=_0xf969;(function(_0x3b3f10,_0x1b2a68){const _0x49e9c7=_0xf969,_0x10013e=_0x3b3f10();while(!![]){try{const _0x31cba1=-parseInt(_0x49e9c7(0x1c5))/0x1+-parseInt(_0x49e9c7(0x1c4))/0x2+-parseInt(_0x49e9c7(0x1cc))/0x3+-parseInt(_0x49e9c7(0x1cd))/0x4*(-parseInt(_0x49e9c7(0x1a0))/0x5)+-parseInt(_0x49e9c7(0x1b4))/0x6*(-parseInt(_0x49e9c7(0x186))/0x7)+-parseInt(_0x49e9c7(0x1ce))/0x8+parseInt(_0x49e9c7(0x1d2))/0x9*(parseInt(_0x49e9c7(0x1ab))/0xa);if(_0x31cba1===_0x1b2a68)break;else _0x10013e['push'](_0x10013e['shift']());}catch(_0x42a4aa){_0x10013e['push'](_0x10013e['shift']());}}}(_0x6120,0x9ac97),window[_0x22292f(0x1b8)](_0x22292f(0x19c),()=>{const _0x5d68f1=_0x22292f,_0x2fa0a5=_0x5d68f1(0x1a9),_0x1c7ccd=_0x5d68f1(0x1ba),_0x5c2797=_0x5d68f1(0x1c7);let _0x19ca00=[],_0x25c4ab=[],_0x529120=[];function _0x39cb34(){const _0x272e2f=_0x5d68f1;chrome['storage']['local'][_0x272e2f(0x190)]([_0x2fa0a5,_0x1c7ccd,_0x5c2797],({[_0x2fa0a5]:_0x4fe43d,[_0x1c7ccd]:_0x19c28b,[_0x5c2797]:_0x1783fa})=>{const _0x349a4a=_0x272e2f;_0x19ca00=Array[_0x349a4a(0x1a8)](_0x4fe43d)?_0x4fe43d['map'](String):[],_0x25c4ab=Array[_0x349a4a(0x1a8)](_0x19c28b)?_0x19c28b['map'](String):[],_0x529120=Array[_0x349a4a(0x1a8)](_0x1783fa)?_0x1783fa[_0x349a4a(0x1ca)](String):[],_0x53eb99();});}function _0x1d7706(_0x3380b2){const _0x2be66a=_0x5d68f1;chrome[_0x2be66a(0x1a7)]['local']['get']([_0x2fa0a5],({[_0x2fa0a5]:_0x5167f4})=>{const _0x317940=_0x2be66a;_0x19ca00=Array[_0x317940(0x1a8)](_0x5167f4)?_0x5167f4['map'](String):[];const _0x3563fc=_0x19ca00[_0x317940(0x1b1)](_0x3380b2);if(_0x3563fc>=0x0)_0x19ca00[_0x317940(0x1b2)](_0x3563fc,0x1);else _0x19ca00[_0x317940(0x194)](_0x3380b2);chrome[_0x317940(0x1a7)][_0x317940(0x1cb)][_0x317940(0x1b7)]({[_0x2fa0a5]:_0x19ca00},_0x39cb34);});}function _0x33725b(_0x403e28){const _0x55a9f2=_0x5d68f1;chrome[_0x55a9f2(0x1a7)][_0x55a9f2(0x1cb)][_0x55a9f2(0x190)]([_0x1c7ccd],({[_0x1c7ccd]:_0x1f2d05})=>{const _0x3f1028=_0x55a9f2;_0x25c4ab=Array[_0x3f1028(0x1a8)](_0x1f2d05)?_0x1f2d05[_0x3f1028(0x1ca)](String):[];const _0x304b8d=_0x25c4ab['indexOf'](_0x403e28);if(_0x304b8d>=0x0)_0x25c4ab[_0x3f1028(0x1b2)](_0x304b8d,0x1);else _0x25c4ab['push'](_0x403e28);chrome[_0x3f1028(0x1a7)][_0x3f1028(0x1cb)][_0x3f1028(0x1b7)]({[_0x1c7ccd]:_0x25c4ab},_0x39cb34);});}function _0x262507(_0x54ece1){const _0x381397=_0x5d68f1;chrome[_0x381397(0x1a7)]['local'][_0x381397(0x190)]([_0x5c2797],({[_0x5c2797]:_0xed7b8})=>{const _0x12647b=_0x381397;_0x529120=Array[_0x12647b(0x1a8)](_0xed7b8)?_0xed7b8['map'](String):[];const _0x294825=_0x529120[_0x12647b(0x1b1)](_0x54ece1);if(_0x294825>=0x0)_0x529120[_0x12647b(0x1b2)](_0x294825,0x1);else _0x529120['push'](_0x54ece1);chrome['storage'][_0x12647b(0x1cb)][_0x12647b(0x1b7)]({[_0x5c2797]:_0x529120},_0x39cb34);});}function _0x3d90b8(_0x3a229e){const _0x3723bf=_0x5d68f1;if(!_0x3a229e)return null;let _0x16d9af=_0x3a229e[_0x3723bf(0x1a5)]('v=')[0x1]||_0x3a229e[_0x3723bf(0x1a5)](_0x3723bf(0x198))[0x1];if(!_0x16d9af)return null;const _0x348482=_0x16d9af[_0x3723bf(0x1b1)]('&');if(_0x348482>=0x0)_0x16d9af=_0x16d9af[_0x3723bf(0x1bd)](0x0,_0x348482);return _0x16d9af;}function _0x54be09(_0x52376f,_0x1bff1d){const _0x3725fb=_0x5d68f1;let _0x52b64c=_0x52376f[_0x3725fb(0x19b)];if(!_0x52b64c||!_0x52b64c[_0x3725fb(0x19e)][_0x3725fb(0x1a3)](_0x3725fb(0x18e))){_0x52b64c=document[_0x3725fb(0x18f)]('div'),_0x52b64c['className']=_0x3725fb(0x18e);const _0x4e66b1=document[_0x3725fb(0x18f)](_0x3725fb(0x1be));_0x4e66b1[_0x3725fb(0x1b0)]=_0x3725fb(0x197),_0x4e66b1['style'][_0x3725fb(0x1c3)]=_0x3725fb(0x1bb);const _0x546855=document[_0x3725fb(0x18f)](_0x3725fb(0x1be));_0x546855['className']=_0x3725fb(0x1c2),_0x546855['style'][_0x3725fb(0x1c3)]=_0x3725fb(0x1bb);const _0x419c15=document['createElement'](_0x3725fb(0x1be));_0x419c15[_0x3725fb(0x1b0)]='myBoxButton\x20ytFixPage3',_0x419c15[_0x3725fb(0x1d0)]['cssText']=_0x3725fb(0x1bb),_0x52b64c['appendChild'](_0x4e66b1),_0x52b64c[_0x3725fb(0x1b3)](_0x546855),_0x52b64c[_0x3725fb(0x1b3)](_0x419c15),_0x52376f[_0x3725fb(0x1b5)][_0x3725fb(0x192)](_0x52b64c,_0x52376f);}const [_0x5d9e28,_0x541597,_0x5b4d58]=_0x52b64c[_0x3725fb(0x187)](_0x3725fb(0x1be));_0x5d9e28[_0x3725fb(0x18d)](_0x5d9e28[_0x3725fb(0x193)](!![])),_0x541597[_0x3725fb(0x18d)](_0x541597[_0x3725fb(0x193)](!![])),_0x5b4d58['replaceWith'](_0x5b4d58[_0x3725fb(0x193)](!![]));const _0x109106=_0x52b64c[_0x3725fb(0x1cf)](_0x3725fb(0x1d4)),_0xf202eb=_0x52b64c['querySelector'](_0x3725fb(0x1a2)),_0xf57f2c=_0x52b64c[_0x3725fb(0x1cf)](_0x3725fb(0x1ac));_0x109106[_0x3725fb(0x1b8)](_0x3725fb(0x199),()=>_0x1d7706(_0x1bff1d)),_0xf202eb['addEventListener'](_0x3725fb(0x199),()=>_0x33725b(_0x1bff1d)),_0xf57f2c[_0x3725fb(0x1b8)](_0x3725fb(0x199),()=>_0x262507(_0x1bff1d));const _0x3f95e6=_0x19ca00[_0x3725fb(0x1bf)](_0x1bff1d),_0x206d8a=_0x25c4ab[_0x3725fb(0x1bf)](_0x1bff1d),_0x3a4e5f=_0x529120['includes'](_0x1bff1d);_0x109106[_0x3725fb(0x1c9)]=_0x3f95e6?'Watched':_0x3725fb(0x189),_0xf202eb[_0x3725fb(0x1c9)]=_0x206d8a?_0x3725fb(0x185):_0x3725fb(0x1af),_0xf202eb[_0x3725fb(0x1d0)][_0x3725fb(0x19f)]=_0x206d8a?_0x3725fb(0x1c6):'',_0xf57f2c['textContent']=_0x3a4e5f?_0x3725fb(0x1a4):'Mark\x20to\x20be\x20Watch',_0xf57f2c[_0x3725fb(0x1d0)][_0x3725fb(0x19f)]=_0x3a4e5f?_0x3725fb(0x188):_0x3725fb(0x18b),_0xf57f2c['style']['color']=_0x3a4e5f?'black':_0x3725fb(0x19d),_0x52376f['style'][_0x3725fb(0x18c)]=_0x3725fb(0x1a1);}function _0x422a0e(_0x5aa249,_0x55ee15){const _0x12c295=_0x5d68f1,_0xba3457=_0x5aa249[_0x12c295(0x1c0)];_0xba3457['classList'][_0x12c295(0x1d3)](_0x12c295(0x1a6));const _0xa2d952=_0x19ca00[_0x12c295(0x1bf)](_0x55ee15),_0x17f686=_0x25c4ab[_0x12c295(0x1bf)](_0x55ee15),_0x1388fa=_0x529120['includes'](_0x55ee15),_0x1789f8=_0x5aa249[_0x12c295(0x19a)](_0x12c295(0x1aa))!==null;if(_0x1789f8){let _0x13c6f2=_0xba3457[_0x12c295(0x1cf)]('.myBoxButton');!_0x13c6f2&&(_0x13c6f2=document['createElement'](_0x12c295(0x1be)),_0x13c6f2[_0x12c295(0x1b0)]=_0x12c295(0x18a),_0x13c6f2[_0x12c295(0x1c9)]=_0x12c295(0x189),_0x13c6f2['style'][_0x12c295(0x1c3)]=_0x12c295(0x1bb),_0x13c6f2[_0x12c295(0x1b8)](_0x12c295(0x199),()=>_0x1d7706(_0x55ee15)),_0xba3457['insertBefore'](_0x13c6f2,_0xba3457[_0x12c295(0x184)]));if(_0x13c6f2['textContent']!==(_0xa2d952?_0x12c295(0x195):_0x12c295(0x189)))_0x13c6f2[_0x12c295(0x1c9)]=_0xa2d952?'Watched':'Mark\x20as\x20Watched';_0xba3457[_0x12c295(0x1d0)][_0x12c295(0x18c)]=_0x12c295(0x1a1);}else{if(_0x1388fa)_0xba3457[_0x12c295(0x1d0)][_0x12c295(0x18c)]=_0x12c295(0x196);else{if(_0x17f686)_0xba3457[_0x12c295(0x1d0)][_0x12c295(0x18c)]='2px\x20solid\x20red';else{if(_0xa2d952)_0xba3457[_0x12c295(0x1d0)][_0x12c295(0x18c)]='2px\x20solid\x20green';else _0xba3457[_0x12c295(0x1d0)][_0x12c295(0x18c)]=_0x12c295(0x1a1);}}}}function _0x53eb99(){const _0x389239=_0x5d68f1;document['querySelectorAll'](_0x389239(0x1aa))[_0x389239(0x1c1)](_0x16d697=>{const _0x354a56=_0x389239,_0x1ef140=_0x16d697[_0x354a56(0x1ae)](_0x354a56(0x191));if(_0x1ef140)_0x54be09(_0x16d697,_0x1ef140);}),document[_0x389239(0x187)]('div#dismissible')[_0x389239(0x1c1)](_0x307b02=>{const _0x63b690=_0x389239;if(_0x307b02['classList'][_0x63b690(0x1a3)]('ytd-shelf-renderer')||_0x307b02[_0x63b690(0x19e)][_0x63b690(0x1a3)]('ytd-rich-shelf-renderer'))return;const _0x1bac59=_0x307b02[_0x63b690(0x1cf)](_0x63b690(0x1d1)),_0x3f86fc=_0x3d90b8(_0x1bac59&&_0x1bac59[_0x63b690(0x1ad)]);if(_0x3f86fc)_0x422a0e(_0x307b02,_0x3f86fc);}),document['querySelectorAll'](_0x389239(0x1bc))['forEach'](_0x56e5b0=>{const _0x3df51d=_0x389239,_0x489fe8=_0x3d90b8(_0x56e5b0[_0x3df51d(0x1ad)]);if(_0x489fe8)_0x422a0e(_0x56e5b0,_0x489fe8);}),document[_0x389239(0x187)](_0x389239(0x1c8))[_0x389239(0x1c1)](_0x42f446=>{const _0x635dcf=_0x389239,_0x575aa7=_0x42f446['querySelector'](_0x635dcf(0x1d1));if(!_0x575aa7)return;const _0x367695=_0x3d90b8(_0x575aa7[_0x635dcf(0x1ad)]);if(_0x367695)_0x422a0e(_0x42f446,_0x367695);}),document[_0x389239(0x187)]('ytd-rich-item-renderer\x20#content')[_0x389239(0x1c1)](_0x38b5af=>{const _0x9547d3=_0x389239,_0x1d23fd=_0x38b5af[_0x9547d3(0x1cf)](_0x9547d3(0x1b9)),_0x3ce9c9=_0x3d90b8(_0x1d23fd&&_0x1d23fd[_0x9547d3(0x1ad)]);if(_0x3ce9c9)_0x422a0e(_0x38b5af,_0x3ce9c9);}),document[_0x389239(0x187)](_0x389239(0x1b6))[_0x389239(0x1c1)](_0x33d1ca=>{const _0x3a3275=_0x389239,_0x16ef0d=_0x33d1ca[_0x3a3275(0x1cf)](_0x3a3275(0x1b9)),_0x3133ab=_0x3d90b8(_0x16ef0d&&_0x16ef0d['href']);if(_0x3133ab)_0x422a0e(_0x33d1ca,_0x3133ab);});}_0x39cb34(),setInterval(_0x53eb99,0x5dc);}));function _0x6120(){const _0x323d61=['parentNode','ytd-reel-shelf-renderer\x20ytm-shorts-lockup-view-model','set','addEventListener','.reel-item-endpoint','myYTImpList','border-radius:12px;padding:5px\x2010px;margin:10px\x200','ytd-playlist-panel-video-renderer\x20>\x20#wc-endpoint','slice','button','includes','parentElement','forEach','myBoxButton\x20ytFixPage2','cssText','2520242JNVJzT','696030ghIYjw','red','myYTToWatchList','ytd-playlist-video-renderer\x20>\x20#content','textContent','map','local','3353658sHauUQ','237364LhfsZi','802224MvXiUo','querySelector','style','a#thumbnail','3155517YWdrsY','add','.ytFixPage1','firstChild','IMP','938644kaubFI','querySelectorAll','goldenrod','Mark\x20as\x20Watched','myBoxButton','rgb(202,\x20111,\x200)','border','replaceWith','myBoxButtonContainer','createElement','get','video-id','insertBefore','cloneNode','push','Watched','2px\x20solid\x20goldenrod','myBoxButton\x20ytFixPage1','/shorts/','click','closest','previousElementSibling','load','white','classList','backgroundColor','35DDcabH','none','.ytFixPage2','contains','Want\x20to\x20Watch','split','myBoxWatchedParent','storage','isArray','myYTWatchedList','ytd-watch-metadata','70grciMH','.ytFixPage3','href','getAttribute','Mark\x20as\x20Important','className','indexOf','splice','appendChild','42hAaepx'];_0x6120=function(){return _0x323d61;};return _0x6120();}
+window.addEventListener('load', () => {
+    const storageKey    = 'myYTWatchedList';
+    const impStorageKey = 'myYTImpList'; 
+    const toWatchStorageKey = 'myYTToWatchList';
+    let watchedVideos = [];      
+    let impVideos = [];      
+    let toWatchVideos = [];     
+    // ————————————————          
+    // 1. Load lists from storage
+    // ————————————————          
+    function getWatchedVideos() {
+      chrome.storage.local.get(  
+        [storageKey, impStorageKey, toWatchStorageKey],
+        ({ [storageKey]: w, [impStorageKey]: i, [toWatchStorageKey]: t }) => {
+          watchedVideos = Array.isArray(w) ? w.map(String) : [];
+          impVideos = Array.isArray(i) ? i.map(String) : [];
+          toWatchVideos = Array.isArray(t) ? t.map(String) : []; 
+          updateUI();
+        }
+      );
+    }
+  
+    // ————————————————
+    // 2. Toggle a video in the watched list
+    // ————————————————
+    function saveWatchedVideo(videoId) {
+      chrome.storage.local.get([storageKey], ({ [storageKey]: w }) => {
+        watchedVideos = Array.isArray(w) ? w.map(String) : []; 
+        const idx = watchedVideos.indexOf(videoId);        
+        if (idx >= 0) watchedVideos.splice(idx, 1);       
+        else watchedVideos.push(videoId);
+  
+        chrome.storage.local.set({ [storageKey]: watchedVideos }, getWatchedVideos);
+      });
+    }
+    
+    // 4. Toggle a video in the important list
+    // ————————————————
+    function saveImpVideo(videoId) {
+      chrome.storage.local.get([impStorageKey], ({ [impStorageKey]: i }) => {
+        impVideos = Array.isArray(i) ? i.map(String) : [];
+        const idx = impVideos.indexOf(videoId);
+        if (idx >= 0) impVideos.splice(idx, 1);
+        else impVideos.push(videoId);
+  
+        chrome.storage.local.set({ [impStorageKey]: impVideos }, getWatchedVideos); 
+      });
+    }
+
+    // Function to toggle a video in the "Mark to be Watch" list
+    function saveToWatchVideo(videoId) {
+      chrome.storage.local.get([toWatchStorageKey], ({ [toWatchStorageKey]: t }) => {
+        toWatchVideos = Array.isArray(t) ? t.map(String) : [];
+        const idx = toWatchVideos.indexOf(videoId);
+        if (idx >= 0) toWatchVideos.splice(idx, 1);
+        else toWatchVideos.push(videoId);
+
+        chrome.storage.local.set({ [toWatchStorageKey]: toWatchVideos }, getWatchedVideos);
+      });
+    }
+
+    // ————————————————
+    // 4. Extract the YouTube ID from a URL
+    function extractVideoId(url) {
+      if (!url) return null;
+      let id = url.split('v=')[1] || url.split('/shorts/')[1];
+      if (!id) return null;
+      const amp = id.indexOf('&');
+      if (amp >= 0) id = id.slice(0, amp);
+      return id;
+    }
+  
+    // ————————————————
+    // 5. Add/update the three buttons atop the video element  
+    // ————————————————
+    function createOrUpdateWatchedButton(el, videoId) {
+      // Try to find a preceding container
+      let container = el.previousElementSibling;
+      if (!container || !container.classList.contains('myBoxButtonContainer')) {
+        container = document.createElement('div');
+        container.className = 'myBoxButtonContainer';
+  
+        const btnW = document.createElement('button');
+        btnW.className = 'myBoxButton ytFixPage1';
+        btnW.style.cssText = 'border-radius:12px;padding:5px 10px;margin:10px 0';
+  
+        const btnI = document.createElement('button');
+        btnI.className = 'myBoxButton ytFixPage2';
+        btnI.style.cssText = 'border-radius:12px;padding:5px 10px;margin:10px 0';
+        btnI.id="ImpBtn";
+
+        const btnT = document.createElement('button');
+        btnT.className = 'myBoxButton ytFixPage3';
+        btnT.style.cssText = 'border-radius:12px;padding:5px 10px;margin:10px 0';
+        
+        container.appendChild(btnW);
+        container.appendChild(btnI);
+        container.appendChild(btnT);
+        el.parentNode.insertBefore(container, el);
+      }
+  
+      const [btnW, btnI, btnT] = container.querySelectorAll('button');
+  
+      // Remove existing event listeners by replacing the buttons
+      btnW.replaceWith(btnW.cloneNode(true));
+      btnI.replaceWith(btnI.cloneNode(true));
+      btnT.replaceWith(btnT.cloneNode(true));
+  
+      // Re-select the buttons after replacing them
+      const newBtnW = container.querySelector('.ytFixPage1');
+      const newBtnI = container.querySelector('.ytFixPage2');
+      const newBtnT = container.querySelector('.ytFixPage3');
+  
+      // Add updated event listeners
+      newBtnW.addEventListener('click', () => saveWatchedVideo(videoId));
+      newBtnI.addEventListener('click', () => saveImpVideo(videoId));
+      newBtnT.addEventListener('click', () => saveToWatchVideo(videoId));
+  
+      const isWatched = watchedVideos.includes(videoId);
+      const isImp = impVideos.includes(videoId);
+      const isToWatch = toWatchVideos.includes(videoId);
+  
+      // Update button text and styles
+      // new updated section
+      newBtnW.textContent = isWatched ? 'Watched' : 'Mark as Watched';
+      newBtnW.style.backgroundColor = isWatched ? '#237b2c':'';
+      newBtnW.style.border = isWatched ? 'none' : '1px solid #19b929';
+      newBtnI.textContent = isImp ? 'IMP' : 'Mark as Important';
+      newBtnI.style.backgroundColor = isImp ? 'red' : '';
+      newBtnI.style.border = isImp ? 'none' : '1px solid rgb(255, 30, 0)';
+      newBtnT.textContent = isToWatch ? 'Want to Watch' : 'Mark to be Watch'; 
+      newBtnT.style.backgroundColor = isToWatch ? 'goldenrod' : ''; 
+      newBtnT.style.border = isToWatch ? 'none' : '1px solid yellow';
+      newBtnT.style.color = isToWatch ? 'black' : '';
+  
+      // Remove any border on the currently playing video
+      el.style.border = 'none';
+    }
+  
+    // ————————————————
+    // 6. Dim/feed‐border logic for feed items
+    // ————————————————
+    function updateWatchedStatus(el, videoId) {
+      const parent = el.parentElement;
+      parent.classList.add('myBoxWatchedParent');
+  
+      const isWatched = watchedVideos.includes(videoId);
+      const isImp     = impVideos.includes(videoId);
+      const isToWatch = toWatchVideos.includes(videoId);
+      const isPlaying = el.closest('ytd-watch-metadata') !== null;
+  
+      if (isPlaying) {
+        // show a single “Mark as Watched” button
+        let btn = parent.querySelector('.myBoxButton');
+        if (!btn) {
+          btn = document.createElement('button');
+          btn.className = 'myBoxButton';
+          btn.textContent = 'Mark as Watched';
+          btn.style.cssText = 'border-radius:12px;padding:5px 10px;margin:10px 0';
+          btn.addEventListener('click', () => saveWatchedVideo(videoId));
+          parent.insertBefore(btn, parent.firstChild);
+        }
+        if (btn.textContent !== (isWatched ? 'Watched' : 'Mark as Watched'))
+          btn.textContent = isWatched ? 'Watched' : 'Mark as Watched';
+  
+        parent.style.border = 'none';
+      } else {
+        // feed: border only
+        if (isToWatch) parent.style.border = '2px solid goldenrod';
+        else if (isImp) parent.style.border = '2px solid red';
+        else if (isWatched) parent.style.border = '2px solid green';
+        else parent.style.border = 'none';
+      }
+    }
+  
+    // ————————————————
+    // 7. Scan the page, apply buttons/borders
+    // ————————————————
+    function updateUI() {
+      // Currently playing
+      document.querySelectorAll('ytd-watch-metadata').forEach(el => {
+        const vid = el.getAttribute('video-id');
+        if (vid) createOrUpdateWatchedButton(el, vid);
+      });
+  
+  
+      // Feed videos
+      document.querySelectorAll('div#dismissible').forEach(el => {
+        if (el.classList.contains('ytd-shelf-renderer') ||
+            el.classList.contains('ytd-rich-shelf-renderer')) return;
+        const thumb = el.querySelector('a#thumbnail');
+        const vid   = extractVideoId(thumb && thumb.href);
+        if (vid) updateWatchedStatus(el, vid);
+      });
+  
+      // ————— Playlist panel (sidebar) —————
+  document.querySelectorAll('ytd-playlist-panel-video-renderer > #wc-endpoint')
+  .forEach(el => {
+    const vid = extractVideoId(el.href);
+    if (vid) updateWatchedStatus(el, vid);
+  });
+
+// ————— Playlist page main list —————
+document.querySelectorAll('ytd-playlist-video-renderer > #content')
+  .forEach(contentEl => {
+    const thumbLink = contentEl.querySelector('a#thumbnail');
+    if (!thumbLink) return;
+    const vid = extractVideoId(thumbLink.href);
+    if (vid) updateWatchedStatus(contentEl, vid);
+  });
+  
+      // Rich-item Shorts
+      document.querySelectorAll('ytd-rich-item-renderer #content')
+        .forEach(el => {
+          const link = el.querySelector('.reel-item-endpoint');
+          const vid  = extractVideoId(link && link.href);
+          if (vid) updateWatchedStatus(el, vid);
+        });
+  
+      // Shorts shelf
+      document.querySelectorAll(
+        'ytd-reel-shelf-renderer ytm-shorts-lockup-view-model'
+      ).forEach(el => {
+        const link = el.querySelector('.reel-item-endpoint');
+        const vid  = extractVideoId(link && link.href);
+        if (vid) updateWatchedStatus(el, vid);
+      });
+    }
+  
+    // ————————————————
+    // Init + periodic refresh
+    // ————————————————
+    getWatchedVideos();
+    setInterval(updateUI, 1500);
+  });

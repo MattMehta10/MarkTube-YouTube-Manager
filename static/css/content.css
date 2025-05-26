@@ -1,4 +1,24 @@
 @font-face {
+    font-family: 'unisans';
+    src: url('Uni\ Sans\ Heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'monument';
+    src: url('MonumentExtended-Ultrabold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'introcond';
+    src: url('Intro\ Cond\ Black\ Free.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'gilroyL';
+    src: url('Gilroy-Light.otf') format('opentype')
+}
+
+@font-face {
     font-family: 'gilroy';
     src: url('fonts/Gilroy-ExtraBold.otf') format('opentype')
 }
@@ -21,19 +41,34 @@
     z-index: 100;
     letter-spacing: 1px;
     white-space: nowrap;
-    background: rgba(0, 178, 26, 0.58);
-    font-family: 'Gilroy Extrabold';
+    /* new */
+    background: transparent;        
+    font-family: 'gilroy';
+    font-weight: 900;
     cursor: pointer;
     color: white;
     padding: 5px 10px;
     font-size: 20px;
-    border: none; /* Remove border */
     box-shadow: none; /* Remove box shadow */
 }
 
-.myBoxButton:hover {
-    background-color: #237b2c;
+
+/* new start*/
+
+.myBoxButton:nth-child(1):hover {
+    background-color: #1a5d21;    
 }
+
+.myBoxButton:nth-child(2):hover {
+    background-color: rgb(189, 22, 0);
+}
+
+.myBoxButton:nth-child(3):hover {
+    background-color: rgb(206, 193, 1);
+    color: black;
+}
+
+/* new end */
 
 .myBoxButton.ytFix {
     top: auto;
@@ -74,31 +109,6 @@
     opacity: 0.1;
 }
 
-.myWatchedButton {
-    background-color: #07671fb9;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    padding: 5px 5px;
-    gap: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    font-family: 'Gilroy Extrabold';
-    font-weight: 100;
-    position: relative;
-    padding-left: 10px; /* Space for the icon */
-    background-repeat: no-repeat;
-    background-position: 10px center; /* Position of the icon */
-    margin-top: 8px;
-    cursor: pointer;
-    box-shadow: none; /* Remove box shadow */
-}
-
-.myWatchedButton:hover {
-    background-color: #215026;
-}
 
 /* Style for watched video thumbnails */
 .watchedThumbnail {
@@ -123,14 +133,6 @@ div[id="dismissible"],
 ytd-playlist-video-renderer > #content,
 ytd-rich-item-renderer > #content {
     margin-right: 10px;
-}
-
-.myBoxButtonIMP {
-    background: rgba(255, 0, 0, 0.58) !important;
-}
-
-.myBoxButtonIMP:hover {
-    background-color: #e12a2a;
 }
 
 .impThumbnail {

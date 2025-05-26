@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "MarkTube-Personal Youtube Manager",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Easily mark YouTube videos as watched or important or Want to watch, with export/import and dynamic UI updates on youtube UI.Also now you can make a watchlist.",
   "author": "Yash Mehta",
   "icons": {
