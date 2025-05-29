@@ -2,11 +2,17 @@
 
 Tired of losing track of what you've watched or what you want to revisit on YouTube? **MarkTube** is here to help!
 
+MarkTube is a productivity-focused browser extension designed to help users manage their YouTube watchlist with advanced features like personalized video marking, intelligent categorization, theme customization, and upcoming AI-powered insights.
+
+While the initial idea behind MarkTube was independently conceived, during early research I discovered a similar extension. I took limited UI inspiration and learned from how it handled certain YouTube DOM patterns, which helped accelerate early experimentation.
+
+However, all features, logic, and interface design in MarkTube have been rebuilt from the ground up, with extensive new functionality, better UX, multiple watchlist types, and aims for a scalable architecture for future cross-platform integrations and AI inclusion. Stay tuned for updates on Linkedin And Github Releases.
+
 🚀 **Features:**
 - ✅ Mark videos as **Watched**, **Important**, or **Want to Watch**
 - 🖼️ Visually enhanced: Colored borders around videos based on status
 - 💾 One-click **Backup** and **Restore** your marked videos list
-- 🎯 Personal **Watchlist View** for “Want to Watch” videos
+- 🎯 Personal **Watchlist View** for “Want to Watch” videos(Ideally for the ones you want to watch in the very near future like tomorrow or next time you open youtube.)
 - 🎨 Simple and minimal UI – built for function, not fluff
 
 🛡️ **No tracking. No auto-updates. No fluff.**
