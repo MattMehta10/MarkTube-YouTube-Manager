@@ -14,16 +14,81 @@
 }
 
 @font-face {
-    font-family: 'gilroyL';
-    src: url('Gilroy-Light.otf') format('opentype')
-}
-
-@font-face {
     font-family: 'gilroy';
-    src: url('fonts/Gilroy-ExtraBold.otf') format('opentype')
+    src: url('Gilroy-ExtraBold.otf') format('opentype');
 }
 
 
+#btnstrip,
+.btnstrip {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 16px;
+    /* bottom: 50px; */
+    transition: opacity 0.25s;
+    opacity: 0;
+    z-index: 1000;
+    justify-content: flex-end;
+    gap: clamp(4px, .5vw, 16px);
+    pointer-events: none;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: rgb(24, 24, 24);
+}
+
+#btnstrip.visible,
+.btnstrip.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.btns {
+    opacity: 1;
+    pointer-events: auto;
+    transition: box-shadow 0.2s, background 0.2s, border-color 0.2s;
+    height: 2vh;
+    aspect-ratio: 1/1;
+    width: 2vh;
+    border-radius: 50%;
+    box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.10);
+    margin: 0 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e5e7eb;
+}
+
+.btns:nth-child(1) {
+    border-color: #22c55e;
+}
+
+.btns:nth-child(1):hover,
+.btns:nth-child(1).active {
+    background: #16a34a;
+    border-color: #16a34a;
+}
+
+.btns:nth-child(2) {
+    border-color: #ef4444;
+}
+
+.btns:nth-child(2):hover,
+.btns:nth-child(2).active {
+    background: #b91c1c;
+    border-color: #b91c1c;
+}
+
+.btns:nth-child(3) {
+    border-color: #fde047;
+}
+
+.btns:nth-child(3):hover,
+.btns:nth-child(3).active {
+    background: #facc15;
+    border-color: #facc15;
+}
 
 .myBoxWatchedParent {
     position: relative;
@@ -42,30 +107,34 @@
     letter-spacing: 1px;
     white-space: nowrap;
     /* new */
-    background: transparent;        
-    font-family: 'gilroy';
+    background: transparent;
     font-weight: 900;
+    font-family: 'gilroy';
     cursor: pointer;
-    color: white;
+    /* color: white; */
     padding: 5px 10px;
     font-size: 20px;
-    box-shadow: none; /* Remove box shadow */
+    box-shadow: none;
+    /* Remove box shadow */
 }
 
 
 /* new start*/
 
 .myBoxButton:nth-child(1):hover {
-    background-color: #1a5d21;    
+    background-color: #1a5d21;
+    border-color: #1a5d21 !important;
 }
 
 .myBoxButton:nth-child(2):hover {
     background-color: rgb(189, 22, 0);
+    border-color: rgb(189, 22, 0) !important;
 }
 
 .myBoxButton:nth-child(3):hover {
     background-color: rgb(206, 193, 1);
-    color: black;
+    border-color: rgb(206, 193, 1) !important;
+    color: black !important;
 }
 
 /* new end */
@@ -101,7 +170,7 @@
     background: rgba(0, 178, 26, 1) !important;
 }
 
-#actions > .myBoxButton.ytFixPage {
+#actions>.myBoxButton.ytFixPage {
     padding: 5px 10px;
 }
 
@@ -112,13 +181,17 @@
 
 /* Style for watched video thumbnails */
 .watchedThumbnail {
-    border: 8px solid green; /* Green border for watched videos */
-    border-radius: 5px;  /* Optional: rounds the corners of the border */
-    padding: 2px; /* Adjust padding to ensure the border isn't too tight */
+    border: 8px solid green;
+    /* Green border for watched videos */
+    border-radius: 5px;
+    /* Optional: rounds the corners of the border */
+    padding: 2px;
+    /* Adjust padding to ensure the border isn't too tight */
 }
 
 .myBoxWatchedParent {
-    border: 2px solid transparent; /* Default no border */
+    border: 2px solid transparent;
+    /* Default no border */
     transition: border 0.3s ease;
 }
 
@@ -130,13 +203,46 @@
 /* Space adjustments for elements */
 #above-the-fold #top-row #owner,
 div[id="dismissible"],
-ytd-playlist-video-renderer > #content,
-ytd-rich-item-renderer > #content {
+ytd-playlist-video-renderer>#content,
+ytd-rich-item-renderer>#content {
     margin-right: 10px;
 }
 
 .impThumbnail {
-    border: 10px solid red; /* Red border for important videos */
-    border-radius: 0px;  /* Optional: rounds the corners of the border */
-    padding: 3px; /* Adjust padding to ensure the border isn't too tight */
+    border: 10px solid red;
+    /* Red border for important videos */
+    border-radius: 0px;
+    /* Optional: rounds the corners of the border */
+    padding: 3px;
+    /* Adjust padding to ensure the border isn't too tight */
+}
+
+:root {
+    --myBoxButton-text: black;
+    /* Default: black for light mode */
+}
+
+html[dark],
+ytd-app[dark] {
+    --myBoxButton-text: #fff;
+    /* White for dark mode */
+}
+
+.myBoxButton {
+    color: var(--myBoxButton-text) !important;
+}
+
+/* Ensure the 3rd button is always black, even in dark mode */
+ytd-app[dark] .myBoxButton:nth-child(3),
+.myBoxButton:nth-child(3):hover {
+    color: black !important;
+}
+
+ytd-app:not([dark]) .myBoxButton:nth-child(1):hover,
+ytd-app:not([dark]) .myBoxButton:nth-child(2):hover {
+    color: #fff !important;
+}
+
+ytd-app:not([dark]) .myBoxButton .btns:nth-child(3){
+    border-color: goldenrod;
 }
